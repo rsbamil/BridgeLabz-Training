@@ -30,51 +30,31 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 - Learned **C# programming basics**
 - Studied **.NET Framework architecture**
 - Solved **10 Google Classroom codebase questions**
-- Practiced **2 LeetCode problems using C#**
-
+  
 ---
 
 ## 📅 Date: 19 December 2025
 
 ### 📘 Topic
-C# Comments, C# Access Modifiers, C# Basic Data Types, C# Variables, Arithmetic Operators, Operator Precedence, Type Conversion, Taking User Input in Programs
+C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User Input in Programs
 
 ---
 
 ### 🌟 What I Learned
-- C# Comments
-- C# Access Modifiers
-- C# Basic Data Types
-- C# Variables
-- Arithmetic Operators
-- Operator Precedence
-- Type Conversion
-- Taking User Input in Programs
 - Solved questions based on **C# Data Types**
 - Solved questions based on **C# Operators**
-- Solved **16 Level-1 C# Programming Elements questions**
+- Solved **16 Level-1 and Level-2 C# Programming Elements questions**
 
 ---
 
-## 🧰 Technologies & Tools
-- **Version Control:** Git, GitHub
-- **Languages:** Java, C#
-- **Framework:** .NET
-- **Problem Solving:** LeetCode, Google Classroom
+## 📅 Date: 20 December 2025
 
----
+### 📘 Topic
+C# Access Modifiers Implementation
 
-## 🎯 Learning Objectives
-- Strengthen programming fundamentals
-- Gain hands-on experience with Git & GitHub
-- Improve problem-solving and coding consistency
-- Build a professional learning portfolio
-
----
-
-## 📈 Status
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
