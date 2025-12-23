@@ -33,25 +33,25 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
   
 ---
 
-## 📅 Date: 19 December 2025
+## 📅 19 December 2025
 
 ### 📘 Topic
 C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User Input in Programs
 
 ---
-## 📅 Date: 20 December 2025
+## 📅 20 December 2025
 
 ### 📘 Topic
 C# Access Modifiers Implementation
 ---
 
-## 📅 Date: 22 December 2025
+## 📅 22 December 2025
 
 ### 📘 Topic
 Control FLows , Conditionals
 
 ---
-## 📅 Date: 23 December 2025
+## 📅 23 December 2025
 
 ### 📘 Topic
 Arrays
@@ -71,6 +71,7 @@ Arrays
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
