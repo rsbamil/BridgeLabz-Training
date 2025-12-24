@@ -54,7 +54,7 @@ Control FLows , Conditionals
 ## 📅 23 December 2025
 
 ### 📘 Topic
-Arrays
+Arrays , Practical Implementation of array , completed assignment of array.
 
 ---
 
@@ -71,6 +71,7 @@ Arrays
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
