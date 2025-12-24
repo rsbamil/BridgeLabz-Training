@@ -58,19 +58,13 @@ Arrays , Practical Implementation of array , completed assignment of array.
 
 ---
 
-### 🌟 What I Learned
-- Solved questions based on **C# Data Types**
-- Solved questions based on **C# Operators**
-- Solved **16 Level-1 and Level-2 C# Programming Elements questions**
-
----
-
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
