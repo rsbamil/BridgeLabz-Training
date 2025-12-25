@@ -57,6 +57,18 @@ Control FLows , Conditionals
 Arrays , Practical Implementation of array , completed assignment of array.
 
 ---
+## 📅 24 December 2025
+
+### 📘 Topic
+Methods , Methods Implementation
+
+---
+## 📅 25 December 2025
+
+### 📘 Topic
+Questions on Methods , LeetCode questions
+
+---
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -64,6 +76,7 @@ Arrays , Practical Implementation of array , completed assignment of array.
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
