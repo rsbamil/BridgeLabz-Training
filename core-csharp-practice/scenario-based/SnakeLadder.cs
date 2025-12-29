@@ -12,7 +12,7 @@ class SnakeLadder
 
     static void Main()
     {
-        Console.Write("Enter number of players (2–4): ");
+        Console.Write("Enter number of players (2-4): ");
         int n = int.Parse(Console.ReadLine());
 
         if (n < 2 || n > 4)
