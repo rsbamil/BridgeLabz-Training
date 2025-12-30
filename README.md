@@ -36,7 +36,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ## 📅 19 December 2025
 
 ### 📘 Topic
-C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User Input in Programs
+    C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User Input in Programs
 
 ---
 ## 📅 20 December 2025
@@ -99,6 +99,7 @@ C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User In
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
