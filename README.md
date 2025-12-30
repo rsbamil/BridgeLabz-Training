@@ -78,13 +78,28 @@ Strings , LeetCode questions
 
 ### 📘 Topic
 Strings Questions , LeetCode questions
+---
+## 📅 28 December 2025
 
+### 📘 Topic
+ScenarioBased - Snake and Ladders Game , LeetCode questions
+ ---
+## 📅 29 December 2025
+
+### 📘 Topic
+ ScenarioBased - Sentence Formatter and Paragraph Formatter , LeetCode questions
+---
+## 📅 30 December 2025
+
+### 📘 Topic
+ScenarioBased - Library Management System and Edu Quiz , LeetCode questions
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
