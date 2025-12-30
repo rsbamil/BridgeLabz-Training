@@ -42,63 +42,64 @@ C# Basic Data Types, C# Variables, C# Operators, Type Conversion, Taking User In
 ## 📅 20 December 2025
 
 ### 📘 Topic
-C# Access Modifiers Implementation
+    C# Access Modifiers Implementation
 ---
 
 ## 📅 22 December 2025
 
 ### 📘 Topic
-Control FLows , Conditionals
+    Control FLows , Conditionals
 
 ---
 ## 📅 23 December 2025
 
 ### 📘 Topic
-Arrays , Practical Implementation of array , completed assignment of array.
+    Arrays , Practical Implementation of array , completed assignment of array.
 
 ---
 ## 📅 24 December 2025
 
 ### 📘 Topic
-Methods , Methods Implementation
+    Methods , Methods Implementation
 
 ---
 ## 📅 25 December 2025
 
 ### 📘 Topic
-Questions on Methods , LeetCode questions
+    Questions on Methods , LeetCode questions
 
 ---
 ## 📅 26 December 2025
 
 ### 📘 Topic
-Strings , LeetCode questions
+    Strings , LeetCode questions
 ---
 ## 📅 27 December 2025
 
 ### 📘 Topic
-Strings Questions , LeetCode questions
+    Strings Questions , LeetCode questions
 ---
 ## 📅 28 December 2025
 
 ### 📘 Topic
-ScenarioBased - Snake and Ladders Game , LeetCode questions
+    ScenarioBased - Snake and Ladders Game , LeetCode questions
  ---
 ## 📅 29 December 2025
 
 ### 📘 Topic
- ScenarioBased - Sentence Formatter and Paragraph Formatter , LeetCode questions
+    ScenarioBased - Sentence Formatter and Paragraph Formatter , LeetCode questions
 ---
 ## 📅 30 December 2025
 
 ### 📘 Topic
-ScenarioBased - Library Management System and Edu Quiz , LeetCode questions
+    ScenarioBased - Library Management System and Edu Quiz , LeetCode questions
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
