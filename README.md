@@ -93,12 +93,17 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 
 ### 📘 Topic
     ScenarioBased - Library Management System and Edu Quiz , LeetCode questions
+## 📅 31 December 2025
+
+### 📘 Topic
+    ScenarioBased - Banking System , Maths Operations  and Freelancer , LeetCode questions
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
