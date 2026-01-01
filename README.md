@@ -96,13 +96,18 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ## 📅 31 December 2025
 
 ### 📘 Topic
-    ScenarioBased - Banking System , Maths Operations  and Freelancer , LeetCode questions
+    ScenarioBased - Banking System , Maths Operations  and Freelancer ,Classes and Objects, LeetCode questions
+## 📅 1 January 2026
+
+### 📘 Topic
+    ScenarioBased - Cafeteria Menu , Constructors , LeetCode questions
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
