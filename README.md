@@ -113,12 +113,18 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 
 ### 📘 Topic
     Sealed , this , static , LeetCode questions
+---
+## 📅 4 January 2026
+
+### 📘 Topic
+    Object Modeling and Diagram , Inheritance
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
