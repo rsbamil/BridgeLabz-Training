@@ -123,12 +123,39 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 
 ### 📘 Topic
     Scenerio Based - Hospital Management System and Vehicle Rental System , LeetCode Questions
+---
+## 📅 6 January 2026
+
+### 📘 Topic
+    Scenerio Based - Bird Sanctuary System and Customer Service Call Log Manager , Encapsulation , Polymorphism , Interface , LeetCode Questions
+---
+## 📅 7 January 2026
+
+### 📘 Topic
+    Scenerio Based - Employee Wage Calculator ,Linked List, LeetCode Questions
+---
+## 📅 8 January 2026
+
+### 📘 Topic
+    Scenerio Based - Smart Home Automation System ,Stack , Queue , HashMap , Hashing , LeetCode Questions
+---
+## 📅 9 January 2026
+
+### 📘 Topic
+    Scenerio Based - ATM Dispenser Logic and "FitTrack – Fitness Tracker" , LeetCode Questions
+---
+## 📅 10 January 2026
+
+### 📘 Topic
+    Scenerio Based - Sorting Algorithms , LeetCode Questions
+
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
 
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
