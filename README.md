@@ -147,7 +147,20 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ## 📅 10 January 2026
 
 ### 📘 Topic
-    Scenerio Based - Sorting Algorithms , LeetCode Questions
+     Sorting Algorithms  - 1. BubbleSort - Sort Student Marks
+                           2. Insertion Sort - Sort Employee IDs
+                           3. Merge Sort - Sort an Array of Book Prices
+                           4. Quick Sort - Sort Product Prices
+                           5. Selection Sort - Sort Exam Scores
+                           6. Heap Sort - Sort Job Applicants by Salary
+                           7. Counting Sort - Sort Student Ages
+---
+## 📅 12 January 2026
+
+### 📘 Topic
+    Scenerio Based - Metal Factory Pipe Cutting , Custom Furniture Manufacturing , LoanBuddy – Loan Approval Automation
+    LeetCode Questions - 1. Divide Two Integers
+                         2. Spiral Matrix
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -155,6 +168,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
