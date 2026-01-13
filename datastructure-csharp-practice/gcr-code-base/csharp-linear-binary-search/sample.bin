@@ -1,0 +1,3 @@
+Hello from Binary File!
+This file is read using StreamReader.
+Byte Stream → Character Stream.

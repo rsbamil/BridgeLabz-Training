@@ -1,0 +1,5 @@
+ABC is a programming language.
+ ABC is easy to learn.
+ ABC is fun.
+ ABC is popular.
+ ABC is used in many applications.
