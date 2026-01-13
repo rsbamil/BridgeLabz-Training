@@ -161,6 +161,19 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
     Scenerio Based - Metal Factory Pipe Cutting , Custom Furniture Manufacturing , LoanBuddy – Loan Approval Automation
     LeetCode Questions - 1. Divide Two Integers
                          2. Spiral Matrix
+---
+## 📅 13 January 2026
+
+### 📘 Topic
+    Scenerio Based - CinemaTime – Movie Schedule Manager and BookBuddy – Digital Bookshelf App
+    GCR CodeBase : Questions Based on 
+              1.Linear Search
+              2. Binary Search
+              3. StringBuilder
+              4. StreamReader
+              5. FileReader
+    LeetCode Questions - 1. Merge Two Sorted Lists
+                         2. Remove Duplicates From LinkedList
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -168,6 +181,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
