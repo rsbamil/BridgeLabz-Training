@@ -36,7 +36,8 @@ namespace AddressBook
             Console.Write("Enter Email: ");
             contact.email=Console.ReadLine();
             addressBooks[count++] = contact;
-            Console.WriteLine("Contact added successfully.");
+            Console.WriteLine("\nContact added successfully.\n");
+            Console.WriteLine("------------------ Added Contact Details ------------------------");
             Console.WriteLine(contact);
         }
         public void EditContact() // UC-3 Method to Edit Contact Details
@@ -64,56 +65,85 @@ namespace AddressBook
                         switch (choice)
                         {
                             case 0:
-                                Console.WriteLine("Updated Contact");
+                                Console.WriteLine("\nUpdated Contact");
                                 Console.WriteLine(contact);
                                 return;
                             case 1:
-                                Console.WriteLine("Enter new first name");
+                                Console.WriteLine("\nEnter new first name");
                                 string first = Console.ReadLine();
                                 contact.firstName = first;
                                 break;
                             case 2:
-                                Console.WriteLine("Enter new last name");
+                                Console.WriteLine("\nEnter new last name");
                                 string last = Console.ReadLine();
                                 contact.lastName = last;
                                 break;
                             case 3:
-                                Console.WriteLine("Enter new address");
+                                Console.WriteLine("\nEnter new address");
                                 string address = Console.ReadLine();
                                 contact.address = address;
                                 break;
                             case 4:
+                                Console.WriteLine("\nEnter new city");
                                 string city = Console.ReadLine();
                                 contact.city = city;
                                 break;
                             case 5:
-                                Console.WriteLine("Enter new state");
+                                Console.WriteLine("\nEnter new state");
                                 string state = Console.ReadLine();
                                 contact.state = state;
                                 break;
                             case 6:
-                                Console.WriteLine("Enter new zip");
+                                Console.WriteLine("\nEnter new zip");
                                 string zip = Console.ReadLine();
                                 contact.zip = zip;
                                 break;
                             case 7:
-                                Console.WriteLine("Enter new phone number");
+                                Console.WriteLine("\nEnter new phone number");
                                 string phone = Console.ReadLine();
                                 contact.phoneNumber = phone;
                                 break;
                             case 8:
-                                Console.WriteLine("Enter new email");
+                                Console.WriteLine("\nEnter new email");
                                 string email = Console.ReadLine();
                                 contact.email = email;
                                 break;
                             default:
-                                Console.WriteLine("Invalid Choice.");
+                                Console.WriteLine("\nInvalid Choice.");
                                 break;
                         }
                     }
                 }
             }
 
+        }
+        public void DeleteContact()
+        {
+            Console.WriteLine("Enter the name of the person to delete the contact");
+            string person = Console.ReadLine();
+            for(int i = 0; i < count; i++)
+            {
+                if (addressBooks[i]!=null && addressBooks[i].firstName.Equals(person, StringComparison.OrdinalIgnoreCase))
+                {
+                    for(int j = i; j < count; j++)
+                    {
+                        addressBooks[j] = addressBooks[j + 1];
+                    }
+                    break;
+                }
+            }
+        }
+        public void DisplayContacts()
+        {
+            foreach(AddressBook contact in addressBooks)
+            {
+                if (contact == null)
+                {
+                    continue;
+                }
+                Console.WriteLine("-----------------------------");
+                Console.WriteLine(contact);
+            }
         }
     }
 }

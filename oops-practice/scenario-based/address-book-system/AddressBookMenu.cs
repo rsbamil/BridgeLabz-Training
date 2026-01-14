@@ -13,14 +13,19 @@ namespace AddressBook
             IAddressbook addressBookUtility = new AddressBookUtility();
             while (true)
             {
-                Console.WriteLine("Address Book Menu:");
+                Console.WriteLine("\n---------------Address Book Menu --------------------");
+                Console.WriteLine("0. Exit");
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Exit");
-                Console.Write("Select an option: ");
+                Console.WriteLine("3. Delete Contact");
+                Console.WriteLine("4. Display All Contact");
+
+                Console.Write("\nSelect an option\n");
                 string choice = Console.ReadLine();
                 switch (choice)
                 {
+                    case "0":
+                        return;
                     case "1":
                         addressBookUtility.AddContact(); // UC-2 Adding Contact Details
                         break;
@@ -28,9 +33,13 @@ namespace AddressBook
                         addressBookUtility.EditContact(); // UC-3 Edit Contact Details
                         break;
                     case "3":
-                        return;
+                        addressBookUtility.DeleteContact(); // UC-4 Delete Contact Details
+                        break;
+                    case "4":
+                        addressBookUtility.DisplayContacts();
+                        break;
                     default:
-                        Console.WriteLine("Invalid option. Please try again.");
+                        Console.WriteLine("\nInvalid option. Please try again.\n");
                         break;
                 }
             }
