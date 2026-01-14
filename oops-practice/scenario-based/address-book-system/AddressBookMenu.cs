@@ -15,7 +15,8 @@ namespace AddressBook
             {
                 Console.WriteLine("Address Book Menu:");
                 Console.WriteLine("1. Add Contact");
-                Console.WriteLine("2. Exit");
+                Console.WriteLine("2. Edit Contact");
+                Console.WriteLine("3. Exit");
                 Console.Write("Select an option: ");
                 string choice = Console.ReadLine();
                 switch (choice)
@@ -24,6 +25,9 @@ namespace AddressBook
                         addressBookUtility.AddContact(); // UC-2 Adding Contact Details
                         break;
                     case "2":
+                        addressBookUtility.EditContact(); // UC-3 Edit Contact Details
+                        break;
+                    case "3":
                         return;
                     default:
                         Console.WriteLine("Invalid option. Please try again.");

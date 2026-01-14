@@ -37,6 +37,83 @@ namespace AddressBook
             contact.email=Console.ReadLine();
             addressBooks[count++] = contact;
             Console.WriteLine("Contact added successfully.");
+            Console.WriteLine(contact);
+        }
+        public void EditContact() // UC-3 Method to Edit Contact Details
+        {
+            Console.WriteLine("ENTER THE NAME OF THE PERSON TO EDIT CONTACT DETAILS:");
+            string person = Console.ReadLine();
+            foreach(AddressBook contact in addressBooks)
+            {
+                if (contact != null && contact.firstName.Equals(person, StringComparison.OrdinalIgnoreCase))
+                {
+                    while (true)
+                    {
+                        Console.WriteLine("WHAT YOU WANT TO UPDATE :");
+                        Console.WriteLine("1. First Name");
+                        Console.WriteLine("2. LastName");
+                        Console.WriteLine("3. Address");
+                        Console.WriteLine("4. City");
+                        Console.WriteLine("5. State");
+                        Console.WriteLine("6. Zip");
+                        Console.WriteLine("7. Phone Number");
+                        Console.WriteLine("8. Email");
+                        Console.WriteLine("Enter '0' to exit.");
+                        Console.WriteLine("Enter your choice: ");
+                        int choice = int.Parse(Console.ReadLine());
+                        switch (choice)
+                        {
+                            case 0:
+                                Console.WriteLine("Updated Contact");
+                                Console.WriteLine(contact);
+                                return;
+                            case 1:
+                                Console.WriteLine("Enter new first name");
+                                string first = Console.ReadLine();
+                                contact.firstName = first;
+                                break;
+                            case 2:
+                                Console.WriteLine("Enter new last name");
+                                string last = Console.ReadLine();
+                                contact.lastName = last;
+                                break;
+                            case 3:
+                                Console.WriteLine("Enter new address");
+                                string address = Console.ReadLine();
+                                contact.address = address;
+                                break;
+                            case 4:
+                                string city = Console.ReadLine();
+                                contact.city = city;
+                                break;
+                            case 5:
+                                Console.WriteLine("Enter new state");
+                                string state = Console.ReadLine();
+                                contact.state = state;
+                                break;
+                            case 6:
+                                Console.WriteLine("Enter new zip");
+                                string zip = Console.ReadLine();
+                                contact.zip = zip;
+                                break;
+                            case 7:
+                                Console.WriteLine("Enter new phone number");
+                                string phone = Console.ReadLine();
+                                contact.phoneNumber = phone;
+                                break;
+                            case 8:
+                                Console.WriteLine("Enter new email");
+                                string email = Console.ReadLine();
+                                contact.email = email;
+                                break;
+                            default:
+                                Console.WriteLine("Invalid Choice.");
+                                break;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }
