@@ -11,10 +11,10 @@ namespace AddressBook
     {
         private AddressBook[] addressBooks = new AddressBook[10]; // UC-5 Added Ability to add multiple person to Address Book
         private int count = 0;
-        
+
         public void AddContact()  // UC-2 Method to Add Contact Details
         {
-            if(count==addressBooks.Length)
+            if (count == addressBooks.Length)
             {
                 Console.WriteLine("Address Book is full. Cannot add more contacts.");
                 return;
@@ -23,8 +23,8 @@ namespace AddressBook
             AddressBook contact = new AddressBook();
 
             Console.Write("Enter First Name: ");
-            contact.firstName=Console.ReadLine();
-            foreach(AddressBook existingContact in addressBooks) // UC-6 There Should be unique name 
+            contact.firstName = Console.ReadLine();
+            foreach (AddressBook existingContact in addressBooks) // UC-6 There Should be unique name 
             {
                 if (existingContact != null && existingContact.firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase)) // UC-7 Ability to ensure no duplicate entry of same person
                 {
@@ -33,19 +33,19 @@ namespace AddressBook
                 }
             }
             Console.Write("Enter Last Name: ");
-            contact.lastName=Console.ReadLine();
+            contact.lastName = Console.ReadLine();
             Console.Write("Enter Address: ");
-            contact.address=Console.ReadLine();
+            contact.address = Console.ReadLine();
             Console.Write("Enter City: ");
-            contact.city=Console.ReadLine();
+            contact.city = Console.ReadLine();
             Console.Write("Enter State: ");
-            contact.state=Console.ReadLine();
+            contact.state = Console.ReadLine();
             Console.Write("Enter Zip: ");
-            contact.zip=Console.ReadLine();
+            contact.zip = Console.ReadLine();
             Console.Write("Enter Phone Number: ");
-            contact.phoneNumber=Console.ReadLine();
+            contact.phoneNumber = Console.ReadLine();
             Console.Write("Enter Email: ");
-            contact.email=Console.ReadLine();
+            contact.email = Console.ReadLine();
             addressBooks[count++] = contact;
 
             Console.WriteLine("\nContact added successfully.\n");
@@ -57,7 +57,7 @@ namespace AddressBook
         {
             Console.WriteLine("ENTER THE NAME OF THE PERSON TO EDIT CONTACT DETAILS:");
             string person = Console.ReadLine();
-            foreach(AddressBook contact in addressBooks)
+            foreach (AddressBook contact in addressBooks)
             {
                 if (contact != null && contact.firstName.Equals(person, StringComparison.OrdinalIgnoreCase))
                 {
@@ -133,11 +133,11 @@ namespace AddressBook
         {
             Console.WriteLine("Enter the name of the person to delete the contact");
             string person = Console.ReadLine();
-            for(int i = 0; i < count; i++)
+            for (int i = 0; i < count; i++)
             {
-                if (addressBooks[i]!=null && addressBooks[i].firstName.Equals(person, StringComparison.OrdinalIgnoreCase))
+                if (addressBooks[i] != null && addressBooks[i].firstName.Equals(person, StringComparison.OrdinalIgnoreCase))
                 {
-                    for(int j = i; j < count; j++)
+                    for (int j = i; j < count; j++)
                     {
                         addressBooks[j] = addressBooks[j + 1];
                     }
@@ -148,7 +148,7 @@ namespace AddressBook
         }
         public void DisplayContacts()
         {
-            foreach(AddressBook contact in addressBooks)
+            foreach (AddressBook contact in addressBooks)
             {
                 if (contact == null)
                 {
@@ -156,6 +156,26 @@ namespace AddressBook
                 }
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine(contact);
+            }
+        }
+        public void SearchPersonByCityOrState() // UC-8 Ability to search person by city or state
+        {
+            Console.WriteLine("Enter City or State to search:");
+            string location = Console.ReadLine();
+            bool found = false;
+            foreach (AddressBook contact in addressBooks)
+            {
+                if (contact != null && (contact.city.Equals(location, StringComparison.OrdinalIgnoreCase) || contact.state.Equals(location, StringComparison.OrdinalIgnoreCase)))
+                {
+                    Console.WriteLine("----------------------------------");
+                    Console.WriteLine(contact);
+                    found = true;
+                }
+            }
+            if (!found)
+            {
+                Console.WriteLine("No contacts found in the specified city or state.");
+
             }
         }
     }

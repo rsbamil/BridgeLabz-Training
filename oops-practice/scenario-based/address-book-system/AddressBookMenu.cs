@@ -18,7 +18,8 @@ namespace AddressBook
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Edit Contact");
                 Console.WriteLine("3. Delete Contact");
-                Console.WriteLine("4. Display All Contact");
+                Console.WriteLine("4. Search a contact by city or state");
+                Console.WriteLine("5. Display All Contact");
 
                 Console.Write("\nSelect an option\n");
                 string choice = Console.ReadLine();
@@ -36,6 +37,9 @@ namespace AddressBook
                         addressBookUtility.DeleteContact(); // UC-4 Delete Contact Details
                         break;
                     case "4":
+                        addressBookUtility.SearchPersonByCityOrState(); // UC-8 Search Person By City or State
+                        break;
+                    case "5":
                         addressBookUtility.DisplayContacts();
                         break;
                     default:
