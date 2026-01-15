@@ -162,7 +162,9 @@ namespace AddressBook
         {
             Console.WriteLine("Enter City or State to search:");
             string location = Console.ReadLine();
+
             bool found = false;
+            int countContacts = 0;  // UC-10 To count contacts in the specified city or state
             foreach (AddressBook contact in addressBooks)
             {
                 if (contact != null && (contact.city.Equals(location, StringComparison.OrdinalIgnoreCase) || contact.state.Equals(location, StringComparison.OrdinalIgnoreCase))) // UC-9 Ability to view person by city or state
@@ -170,6 +172,7 @@ namespace AddressBook
                     Console.WriteLine("----------------------------------");
                     Console.WriteLine(contact);
                     found = true;
+                    countContacts++; // UC-10 Ability to get count of contact persons by city or state
                 }
             }
             if (!found)
@@ -177,6 +180,7 @@ namespace AddressBook
                 Console.WriteLine("No contacts found in the specified city or state.");
 
             }
+            Console.WriteLine($"\nTotal contacts found in {location}: {countContacts}"); // UC-10
         }
     }
 }
