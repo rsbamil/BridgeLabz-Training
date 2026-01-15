@@ -19,9 +19,19 @@ namespace AddressBook
                 Console.WriteLine("Address Book is full. Cannot add more contacts.");
                 return;
             }
+
             AddressBook contact = new AddressBook();
+
             Console.Write("Enter First Name: ");
             contact.firstName=Console.ReadLine();
+            foreach(AddressBook existingContact in addressBooks) // UC-6 There Should be unique name 
+            {
+                if (existingContact != null && existingContact.firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("A contact with this first name already exists. Duplicate entries are not allowed.");
+                    return;
+                }
+            }
             Console.Write("Enter Last Name: ");
             contact.lastName=Console.ReadLine();
             Console.Write("Enter Address: ");
@@ -37,8 +47,10 @@ namespace AddressBook
             Console.Write("Enter Email: ");
             contact.email=Console.ReadLine();
             addressBooks[count++] = contact;
+
             Console.WriteLine("\nContact added successfully.\n");
             Console.WriteLine("------------------ Added Contact Details ------------------------");
+
             Console.WriteLine(contact);
         }
         public void EditContact() // UC-3 Method to Edit Contact Details
@@ -116,7 +128,6 @@ namespace AddressBook
                     }
                 }
             }
-
         }
         public void DeleteContact()
         {
@@ -130,6 +141,7 @@ namespace AddressBook
                     {
                         addressBooks[j] = addressBooks[j + 1];
                     }
+                    addressBooks[count - 1] = null;
                     break;
                 }
             }
