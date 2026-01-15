@@ -174,6 +174,12 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
               5. FileReader
     LeetCode Questions - 1. Merge Two Sorted Lists
                          2. Remove Duplicates From LinkedList
+---
+## 📅 14 January 2026
+
+### 📘 Topic
+    Scenerio Based - AddressBook System
+    
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -181,6 +187,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
