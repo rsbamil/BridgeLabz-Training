@@ -19,7 +19,8 @@ namespace AddressBook
                 Console.WriteLine("2. Edit Contact");
                 Console.WriteLine("3. Delete Contact");
                 Console.WriteLine("4. Search a contact by city or state");
-                Console.WriteLine("5. Display All Contact");
+                Console.WriteLine("5. Sort entries by name");
+                Console.WriteLine("6. Display All Contact");
 
                 Console.Write("\nSelect an option\n");
                 string choice = Console.ReadLine();
@@ -40,6 +41,9 @@ namespace AddressBook
                         addressBookUtility.SearchPersonByCityOrState(); // UC-8 Search Person By City or State
                         break;
                     case "5":
+                        addressBookUtility.SortEntriesByName(); // UC-11 Sort Entries By Name
+                        break;
+                    case "6":
                         addressBookUtility.DisplayContacts();
                         break;
                     default:

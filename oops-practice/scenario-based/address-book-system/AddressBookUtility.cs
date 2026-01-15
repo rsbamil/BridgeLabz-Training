@@ -182,5 +182,16 @@ namespace AddressBook
             }
             Console.WriteLine($"\nTotal contacts found in {location}: {countContacts}"); // UC-10
         }
+        public void SortEntriesByName() // UC-11 Ability to sort entries alphabetically by Person's name
+        {
+            Array.Sort(addressBooks, (x, y) =>
+            {
+                if (x == null && y == null) return 0;
+                if (x == null) return 1;
+                if (y == null) return -1;
+                return string.Compare(x.firstName, y.firstName, StringComparison.OrdinalIgnoreCase);
+            });
+            Console.WriteLine("\nContacts sorted by name:");
+        }
     }
 }
