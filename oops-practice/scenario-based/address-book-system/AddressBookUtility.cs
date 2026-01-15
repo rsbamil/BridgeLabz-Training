@@ -165,7 +165,7 @@ namespace AddressBook
             bool found = false;
             foreach (AddressBook contact in addressBooks)
             {
-                if (contact != null && (contact.city.Equals(location, StringComparison.OrdinalIgnoreCase) || contact.state.Equals(location, StringComparison.OrdinalIgnoreCase)))
+                if (contact != null && (contact.city.Equals(location, StringComparison.OrdinalIgnoreCase) || contact.state.Equals(location, StringComparison.OrdinalIgnoreCase))) // UC-9 Ability to view person by city or state
                 {
                     Console.WriteLine("----------------------------------");
                     Console.WriteLine(contact);
