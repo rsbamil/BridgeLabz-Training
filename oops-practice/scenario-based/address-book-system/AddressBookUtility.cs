@@ -193,5 +193,49 @@ namespace AddressBook
             });
             Console.WriteLine("\nContacts sorted by name:");
         }
+        public void SortEntriesByCityStateOrZip() // UC-12 Ability to sort entries by City, State or Zip
+        {
+            Console.WriteLine("Sort by: 1. City 2. State 3. Zip");
+            int choice = int.Parse(Console.ReadLine());
+            while (true)
+            {
+                switch (choice)
+                {
+                    case 1:
+                        Array.Sort(addressBooks, (x, y) =>
+                        {
+                            if (x == null && y == null) return 0;
+                            if (x == null) return 1;
+                            if (y == null) return -1;
+                            return string.Compare(x.city, y.city, StringComparison.OrdinalIgnoreCase);
+                        });
+                        Console.WriteLine("\nContacts sorted by city:");
+                        return;
+                    case 2:
+                        Array.Sort(addressBooks, (x, y) =>
+                        {
+                            if (x == null && y == null) return 0;
+                            if (x == null) return 1;
+                            if (y == null) return -1;
+                            return string.Compare(x.state, y.state, StringComparison.OrdinalIgnoreCase);
+                        });
+                        Console.WriteLine("\nContacts sorted by state:");
+                        return;
+                    case 3:
+                        Array.Sort(addressBooks, (x, y) =>
+                        {
+                            if (x == null && y == null) return 0;
+                            if (x == null) return 1;
+                            if (y == null) return -1;
+                            return string.Compare(x.zip, y.zip, StringComparison.OrdinalIgnoreCase);
+                        });
+                        Console.WriteLine("\nContacts sorted by zip:");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid Choice. Please try again.");
+                        break;
+                }
+            }
+        }
     }
-}
+ }

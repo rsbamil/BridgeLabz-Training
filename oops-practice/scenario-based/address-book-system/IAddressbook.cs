@@ -13,6 +13,7 @@ namespace AddressBook
         void DeleteContact(); // UC-4 Method to Delete Contact Details
         void SearchPersonByCityOrState(); // UC-8 Ability to search person by city or state
         void SortEntriesByName(); // UC-11 Ability to sort entries alphabetically by Person's name
+        void SortEntriesByCityStateOrZip(); // UC-12 Ability to sort entries by City, State or Zip
         void DisplayContacts();
         
     }
