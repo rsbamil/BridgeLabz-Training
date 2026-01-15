@@ -26,7 +26,7 @@ namespace AddressBook
             contact.firstName=Console.ReadLine();
             foreach(AddressBook existingContact in addressBooks) // UC-6 There Should be unique name 
             {
-                if (existingContact != null && existingContact.firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase))
+                if (existingContact != null && existingContact.firstName.Equals(contact.firstName, StringComparison.OrdinalIgnoreCase)) // UC-7 Ability to ensure no duplicate entry of same person
                 {
                     Console.WriteLine("A contact with this first name already exists. Duplicate entries are not allowed.");
                     return;
