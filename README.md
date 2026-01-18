@@ -178,7 +178,40 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ## 📅 14 January 2026
 
 ### 📘 Topic
-    Scenerio Based - AddressBook System
+    Scenario Based (Mini Project) -> Some UCs of Address Book Problem
+    GCR Codebase :
+            -> What is Runtime Analysis?
+            -> Understanding Big-O Notation
+            -> Time Complexity Analysis
+            -> Space Complexity Analysis
+            -> Best, Worst, and Average Case Complexities
+            -> Practical Guidelines for Optimizing C# Code
+            -> Problem solved on Best, Worst, and Average Case Complexities.
+    LeetCode -> Middle Of the LinkedList , Intersection of Two Linked Lists
+---
+## 📅 15 January 2026
+
+### 📘 Topic
+    Scenario Based (Mini Project) -> Completed All the Ucs of AddressBook Problem
+                                  -> Solved BrowserBuddy Question
+    
+    LeetCode -> Delete the Middle Node of a Linked List , Reverse The LinkedList 
+---
+## 📅 16 January 2026
+
+### 📘 Topic
+    Scenario Based -> Traffic Manager Solved using DSA Concepts (Circular Linked List) , OOPS and Core c#.
+                   -> Book Shelf Solved using DSA Concepts (Linked List and HashMap) , OOPS and Core c#.
+    
+    LeetCode -> Swapping Nodes in a Linked List , Linked List Cycle
+---
+## 📅 17 January 2026
+
+### 📘 Topic
+    Scenario Based -> FlashDealz – Product Sorting by Discount (Quick Sort).
+                   -> FitnessTracker - Daily Step Count Ranking (Bubble Sort).
+    
+    LeetCode -> Reverse Words in a String.
     
 
 
@@ -187,6 +220,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
