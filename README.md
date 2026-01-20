@@ -212,6 +212,13 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
                    -> FitnessTracker - Daily Step Count Ranking (Bubble Sort).
     
     LeetCode -> Reverse Words in a String.
+---
+## 📅 19 January 2026
+
+### 📘 Topic
+    Scenario Based -> ParcelTracker – Delivery Chain Management (Singly Linked List).
+                   -> ExamProctor – Online Exam Review System (Stack + HashMap + Functions).
+    
     
 
 
@@ -220,6 +227,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
