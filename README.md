@@ -218,6 +218,14 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ### 📘 Topic
     Scenario Based -> ParcelTracker – Delivery Chain Management (Singly Linked List).
                    -> ExamProctor – Online Exam Review System (Stack + HashMap + Functions).
+---
+## 📅 20 January 2026
+
+### 📘 Topic
+    Scenario Based -> Aadhar Number Sorting – using Radix Sort.
+                   -> Password Cracker - using Backtracking.
+    LeetCode Questions -> Spiral Matrix II
+                       -> Queue Implementation using stacks
     
     
 
@@ -227,6 +235,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
