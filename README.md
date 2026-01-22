@@ -224,8 +224,21 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ### 📘 Topic
     Scenario Based -> Aadhar Number Sorting – using Radix Sort.
                    -> Password Cracker - using Backtracking.
+    GCR - Codebase -> Solved Questions On Generics
     LeetCode Questions -> Spiral Matrix II
                        -> Queue Implementation using stacks
+---
+## 📅 21 January 2026
+
+### 📘 Topic
+    Scenario Based ->  EduResults – Rank Sheet Generator (Merge Sort).
+                   -> SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+    GCR - Codebase -> Set Interface and Implementing Classes.
+                   -> Queue and Deque Interfaces.
+                   -> Real-World Use Cases and Best Practices.
+                   -> Questions on Collections.
+    LeetCode Questions -> Generate Parenthesis
+                       -> Word Search
     
     
 
@@ -235,6 +248,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
