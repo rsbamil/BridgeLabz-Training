@@ -239,6 +239,14 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
                    -> Questions on Collections.
     LeetCode Questions -> Generate Parenthesis
                        -> Word Search
+---
+## 📅 22 January 2026
+
+### 📘 Topic
+    Scenario Based ->  Ambulance Route System - Linked List.
+    GCR - Codebase -> Streams
+                   -> Exception Handling
+    LeetCode Questions -> Longest Consecutive Sequence
     
     
 
@@ -248,6 +256,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
