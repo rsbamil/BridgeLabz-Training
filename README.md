@@ -247,6 +247,23 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
     GCR - Codebase -> Streams
                    -> Exception Handling
     LeetCode Questions -> Longest Consecutive Sequence
+---
+## 📅 23 January 2026
+
+### 📘 Topic
+    GCR - Codebase -> Regex
+                   -> N Unit
+    LeetCode Questions -> Delete a node in linked list.
+---
+## 📅 27 January 2026
+
+### 📘 Topic
+    Scenario Based -> HealthCheckPro – API Metadata Validator
+                   -> EventTracker – Auto Audit System (Annotations + Reflection + JSON
+    GCR - Codebase -> Annotations
+                   -> Reflection
+    LeetCode Questions -> Delete Middle Node
+                       -> Remove Elements of Linked List
     
     
 
@@ -256,6 +273,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
