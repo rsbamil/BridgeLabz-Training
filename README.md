@@ -264,7 +264,33 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
                    -> Reflection
     LeetCode Questions -> Delete Middle Node
                        -> Remove Elements of Linked List
-    
+---
+## 📅 28 January 2026
+
+### 📘 Topic
+    Scenario Based -> Aero Vigil
+                   -> Validations on Bank Account System
+    GCR - Codebase -> CSV Data Handling
+                   -> Reflection
+    LeetCode Questions -> Median of Two Sorted Arrays
+                       -> Trapping Rain Water
+---
+## 📅 29 January 2026
+
+### 📘 Topic
+    Scenario Based -> Stream Buzz
+                   -> Ocean Fleet
+    GCR - Codebase -> Read JSON Data
+    LeetCode Questions -> Coin Change
+                       -> House Robber
+---
+## 📅 30 January 2026
+
+### 📘 Topic
+    Scenario Based -> Lexical Twist - String Manipulation
+                   -> Future Logistics
+    GCR - Codebase -> Solved assignment of JSON Data
+    LeetCode Questions -> Coin Change II
     
 
 
@@ -273,6 +299,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
