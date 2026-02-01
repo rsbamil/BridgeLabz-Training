@@ -24,6 +24,9 @@ namespace AddressBook
                 Console.WriteLine("7. Display All Contact");
                 Console.WriteLine("8. Save Address Book to File");
                 Console.WriteLine("9. Load Address Book from File");
+                Console.WriteLine("10. Save Address Book as CSV");
+                Console.WriteLine("11. Load Address Book from CSV");
+
 
 
                 Console.Write("\nSelect an option\n");
@@ -60,6 +63,14 @@ namespace AddressBook
                     case "9":
                         addressBookUtility.ReadFromFile(); // UC-13 Read
                         break;
+                    case "10":
+                        addressBookUtility.WriteToCSV(); // UC-14 Write CSV
+                        break;
+
+                    case "11":
+                        addressBookUtility.ReadFromCSV(); // UC-14 Read CSV
+                        break;
+
                     default:
                         Console.WriteLine("\nInvalid option. Please try again.\n");
                         break;

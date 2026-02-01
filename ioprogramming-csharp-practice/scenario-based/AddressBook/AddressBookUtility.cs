@@ -12,7 +12,8 @@ namespace AddressBook
     {
         private List<AddressBook> addressBooks = new List<AddressBook>();        // UC-5 Added Ability to add multiple person to Address Book
         private int count = 0;
-        private const string filePath = "D:\\csharp\\AddressBook\\AddressBook\\AddressBook.txt"; // UC-13 File IO
+        private const string filePath = "AddressBook.txt"; // UC-13 File IO
+        private const string csvPath ="AddressBook.csv"; // UC-14 CSV File IO
         public void AddContact() // UC-2 Method to Add Contact Details
         {
             AddressBook contact = new AddressBook();
@@ -215,5 +216,83 @@ namespace AddressBook
 
             Console.WriteLine("Loaded from file.");
         }
+        public void WriteToCSV() // UC-14 (CSV)
+        {
+            try
+            {
+                string directory = Path.GetDirectoryName(csvPath);
+                if (!Directory.Exists(directory))
+                    Directory.CreateDirectory(directory);
+
+                using (StreamWriter writer = new StreamWriter(csvPath))
+                {
+                    // CSV Header
+                    writer.WriteLine("FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email");
+
+                    foreach (var c in addressBooks)
+                    {
+                        writer.WriteLine(
+                            $"{c.firstName},{c.lastName},{c.address},{c.city},{c.state},{c.zip},{c.phoneNumber},{c.email}"
+                        );
+                    }
+                }
+
+                Console.WriteLine("Address Book saved as CSV successfully.");
+                Console.WriteLine(csvPath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("CSV Write Error: " + ex.Message);
+            }
+        }
+        public void ReadFromCSV() // UC-14 (CSV)
+        {
+            try
+            {
+                if (!File.Exists(csvPath))
+                {
+                    Console.WriteLine("CSV file not found.");
+                    return;
+                }
+
+                addressBooks.Clear();
+
+                using (StreamReader reader = new StreamReader(csvPath))
+                {
+                    string line;
+                    bool isHeader = true;
+
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if (isHeader)
+                        {
+                            isHeader = false;
+                            continue; // skip header
+                        }
+
+                        string[] data = line.Split(',');
+
+                        addressBooks.Add(new AddressBook
+                        {
+                            firstName = data[0],
+                            lastName = data[1],
+                            address = data[2],
+                            city = data[3],
+                            state = data[4],
+                            zip = data[5],
+                            phoneNumber = data[6],
+                            email = data[7]
+                        });
+                    }
+                }
+
+                Console.WriteLine("Address Book loaded from CSV successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("CSV Read Error: " + ex.Message);
+            }
+        }
+
     }
 }

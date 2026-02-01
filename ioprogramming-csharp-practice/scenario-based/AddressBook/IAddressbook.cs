@@ -19,6 +19,9 @@ namespace AddressBook
         // UC-13 File IO
         void WriteToFile();
         void ReadFromFile();
+        // UC-14 (CSV)
+        void WriteToCSV();
+        void ReadFromCSV();
 
     }
 }
