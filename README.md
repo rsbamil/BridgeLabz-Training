@@ -291,7 +291,30 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
                    -> Future Logistics
     GCR - Codebase -> Solved assignment of JSON Data
     LeetCode Questions -> Coin Change II
-    
+---
+## 📅 2 February 2026
+
+### 📘 Topic
+    Scenario Based -> Flip Key - String Manipulation
+    GCR - Codebase -> Read About Design Principles , Design Patterns and Multi Threading
+---
+## 📅 3 February 2026
+
+### 📘 Topic
+    Scenario Based -> Robot Factory Hazard Analyzer - Exception Handling
+    LeetCode Questions -> Spiral Matrix II
+---
+## 📅 4 February 2026
+
+### 📘 Topic
+    GCR - Codebase -> Read About RDBMS , Normalization, DDL, DCL, DML with SQL Server
+    LeetCode Questions -> Merge Two Sorted Lists
+---
+## 📅 5 February 2026
+
+### 📘 Topic
+    GCR - Codebase -> Practiced Basic SQL Commands
+
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -299,6 +322,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
