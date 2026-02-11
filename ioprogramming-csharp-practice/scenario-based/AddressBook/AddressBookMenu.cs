@@ -26,6 +26,9 @@ namespace AddressBook
                 Console.WriteLine("9. Load Address Book from File");
                 Console.WriteLine("10. Save Address Book as CSV");
                 Console.WriteLine("11. Load Address Book from CSV");
+                Console.WriteLine("12. Save Address Book as JSON");
+                Console.WriteLine("13. Load Address Book from JSON");
+
 
 
 
@@ -70,6 +73,14 @@ namespace AddressBook
                     case "11":
                         addressBookUtility.ReadFromCSV(); // UC-14 Read CSV
                         break;
+                    case "12":
+                        addressBookUtility.WriteToJson();
+                        break;
+
+                    case "13":
+                        addressBookUtility.ReadFromJson();
+                        break;
+
 
                     default:
                         Console.WriteLine("\nInvalid option. Please try again.\n");

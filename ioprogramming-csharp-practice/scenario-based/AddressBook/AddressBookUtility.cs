@@ -1,10 +1,12 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace AddressBook
 {
@@ -12,8 +14,9 @@ namespace AddressBook
     {
         private List<AddressBook> addressBooks = new List<AddressBook>();        // UC-5 Added Ability to add multiple person to Address Book
         private int count = 0;
-        private const string filePath = "AddressBook.txt"; // UC-13 File IO
-        private const string csvPath ="AddressBook.csv"; // UC-14 CSV File IO
+        private const string filePath = "D:\\csharp\\AddressBook\\\\AddressBook\\AddressBook.txt"; // UC-13 File IO
+        private const string csvPath = "D:\\csharp\\AddressBook\\AddressBook\\AddressBook.csv"; // UC-14 CSV File IO
+        private const string jsonPath ="D:\\csharp\\AddressBook\\AddressBook\\AddressBook.json";
         public void AddContact() // UC-2 Method to Add Contact Details
         {
             AddressBook contact = new AddressBook();
@@ -293,6 +296,53 @@ namespace AddressBook
                 Console.WriteLine("CSV Read Error: " + ex.Message);
             }
         }
+        public void WriteToJson()
+        {
+            try
+            {
+                // Ensure directory exists
+                string directory = Path.GetDirectoryName(jsonPath);
+                if (!Directory.Exists(directory))
+                    Directory.CreateDirectory(directory);
+
+                var options = new JsonSerializerOptions
+                {
+                    WriteIndented = true   // pretty format
+                };
+
+                string json = JsonSerializer.Serialize(addressBooks, options);
+                File.WriteAllText(jsonPath, json);
+
+                Console.WriteLine("Address Book saved as JSON successfully.");
+                Console.WriteLine(jsonPath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("JSON Write Error: " + ex.Message);
+            }
+        }
+        public void ReadFromJson()
+        {
+            try
+            {
+                if (!File.Exists(jsonPath))
+                {
+                    Console.WriteLine("JSON file not found.");
+                    return;
+                }
+
+                string json = File.ReadAllText(jsonPath);
+
+                addressBooks = JsonSerializer.Deserialize<List<AddressBook>>(json);
+
+                Console.WriteLine("Address Book loaded from JSON successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("JSON Read Error: " + ex.Message);
+            }
+        }
+
 
     }
 }

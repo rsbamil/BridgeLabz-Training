@@ -23,5 +23,9 @@ namespace AddressBook
         void WriteToCSV();
         void ReadFromCSV();
 
+        // UC-15 (JSON)
+        void WriteToJson();
+        void ReadFromJson();
+
     }
 }
