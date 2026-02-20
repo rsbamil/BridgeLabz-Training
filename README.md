@@ -314,7 +314,48 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 
 ### 📘 Topic
     GCR - Codebase -> Practiced Basic SQL Commands
+---
+## 📅 6 February 2026
 
+### 📘 Topic
+    Project Based -> Created Schema and Project template for Health Care App
+                  -> Completed UC-13 of Address Book Project
+---
+## 📅 7 February 2026
+
+### 📘 Topic
+    Project Based -> Completed UC-1 , UC-2 of Health Care App
+                  -> Completed UC-14 and UC-15 of Address Book Project
+---
+## 📅 9 February 2026
+
+### 📘 Topic
+    Project Based -> Completed UC-3 , UC-4 of Health Care App
+                  -> Completed UC-16 and UC-17 of Address Book Project
+---
+## 📅 10 February 2026
+
+### 📘 Topic
+    Mock Test -> Done 3 Questions based on the covered topics so far.
+---
+## 📅 11 February 2026
+
+### 📘 Topic
+    Project Based -> Completed UC-5 , UC-6 of Health Care App
+                  -> Completed UC-18 of Address Book Project
+    GCR - Codebase -> Sumitted DBMS Basic Commands and Health Care App SQL Commands.
+---
+## 📅 13 February 2026
+
+### 📘 Topic
+    Scenario Based -> Email Validator - College Admission Portal (Regex , Exception Handling) 
+    GCR - Codebase -> Sumitted DBMS Basic Commands and Health Care App SQL Commands.
+---
+## 📅 16 February 2026
+
+### 📘 Topic
+    Scenario Based -> Bank Transaction Processing System (SQL) 
+    
 
 
 🚀 Actively learning and updating this repository with new concepts, exercises, and practice problems.
@@ -322,6 +363,7 @@ It includes work on **Git, Java, C#, .NET fundamentals, and problem-solving** to
 ---
 
 ### ⭐ Thank you for visiting!
+
 
 
 
